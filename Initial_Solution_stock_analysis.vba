@@ -1,5 +1,7 @@
 Sub stock_quarterly_change_Q1():
 
+' 1st attempt to solve the problem. Final solution is in other files
+
     Dim ws As Worksheet
     Dim lastRow As Long
     Dim I As Long
