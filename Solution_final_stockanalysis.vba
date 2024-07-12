@@ -53,10 +53,11 @@ Sub stock_quarterly_change_Q1():
                         
                         
 
-            ' Core Logic
+            ' Core Logic % change
             
                      If year_open <> 0 Then
                         ws.range("K" & Summary_Table_Row).Value = yearly_change / year_open
+                        ws.range("K" & Summary_Table_Row).NumberFormat = "0.00%"
                         
                      End If
 
